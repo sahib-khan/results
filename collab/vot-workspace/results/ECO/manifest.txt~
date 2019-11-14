@@ -1,0 +1,9 @@
+toolkit.version=5.0.1
+tracker.identifier=ECOgpu_eco_vot_deep
+tracker.interpreter=matlab
+timestamp=2017-06-19 10:45:37
+platform=GLNXA64
+platform.maxsize=281474976710655.000000
+platform.endian=L
+environment=matlab
+environment.version=8.6.0.267246 (R2015b)

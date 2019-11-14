@@ -1,0 +1,9 @@
+toolkit.version=6.0.2
+tracker.identifier=DeepCSRDCF
+tracker.interpreter=matlab
+timestamp=2018-06-12 20:41:57
+platform=GLNXA64
+platform.maxsize=281474976710655.000000
+platform.endian=L
+environment=matlab
+environment.version=9.0.0.341360 (R2016a)

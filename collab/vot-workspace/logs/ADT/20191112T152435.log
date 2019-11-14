@@ -1,0 +1,628 @@
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+@@TRAX:hello "trax.name=" "trax.family=" "trax.image=path;" "trax.region=rectangle;" "trax.description=" "trax.version=2" "trax.channels=color;" 
+@@TRAX:initialize "file:///root/collab/vot-workspace/sequences/drone1/color/00000001.jpg" "533.1000,190.2200,35.0700,34.8900" 
+@@TRAX:state "533.1000,190.2200,35.0700,34.8900" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000002.jpg" 
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f58e790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f58e790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f045f58ef10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f045f58ef10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f5a6150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f5a6150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f045f58ef10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f045f58ef10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f5a6550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045f5a6550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e3da390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e3da390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e3dac50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e3dac50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e37e810>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f045e37e810>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f045e387450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f045e387450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f045e387450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f045e387450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f045e371990>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f045e371990>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-12 15:24:37.967702: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-12 15:24:37.976089: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2019-11-12 15:24:37.976892: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55bdc61167a0 executing computations on platform Host. Devices:
+2019-11-12 15:24:37.976916: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-12 15:24:38.114698: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or us
+2019-11-12 15:24:38.473913: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+2019-11-12 15:24:39.265437: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+@@TRAX:state "531.8000,197.6000,33.8000,32.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000003.jpg" 
+@@TRAX:state "528.4000,203.4000,33.4000,32.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000004.jpg" 
+@@TRAX:state "525.6000,211.2000,34.0000,32.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000005.jpg" 
+@@TRAX:state "524.5800,218.2000,34.0000,32.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000006.jpg" 
+@@TRAX:state "521.2000,223.6000,36.0000,34.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000007.jpg" 
+@@TRAX:state "522.2000,230.4000,35.0000,33.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000008.jpg" 
+@@TRAX:state "521.2000,238.8000,34.6000,33.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000009.jpg" 
+@@TRAX:state "523.7361,245.2751,31.5551,30.0497" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000010.jpg" 
+@@TRAX:state "526.2361,250.7751,30.5551,29.0497" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000011.jpg" 
+@@TRAX:state "530.7361,254.2751,29.5551,28.0497" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000012.jpg" 
+@@TRAX:state "537.2361,255.7751,30.5551,29.0497" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000013.jpg" 
+@@TRAX:state "544.2361,257.7751,30.5551,29.0497" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000014.jpg" 
+@@TRAX:state "553.6000,259.0000,29.8000,28.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000015.jpg" 
+@@TRAX:state "559.4000,263.0000,28.8000,27.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000016.jpg" 
+@@TRAX:state "571.4000,266.6000,29.8000,28.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000017.jpg" 
+@@TRAX:state "577.8000,261.2000,31.6000,30.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000018.jpg" 
+@@TRAX:state "590.8000,264.0000,31.0000,30.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000019.jpg" 
+@@TRAX:state "601.6000,265.8000,31.6000,30.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000020.jpg" 
+@@TRAX:state "610.0000,268.2000,30.8000,30.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000021.jpg" 
+@@TRAX:state "620.6000,270.4000,30.4000,29.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000022.jpg" 
+@@TRAX:state "631.8000,275.8000,28.8000,27.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000023.jpg" 
+@@TRAX:state "641.2000,276.2000,28.2000,27.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000024.jpg" 
+@@TRAX:state "648.7000,277.7000,33.2000,32.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000025.jpg" 
+@@TRAX:state "651.7000,277.7000,33.2000,32.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000026.jpg" 
+@@TRAX:state "656.2000,277.4000,34.6000,33.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000027.jpg" 
+@@TRAX:state "664.2000,278.2000,35.8000,34.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000028.jpg" 
+@@TRAX:state "665.7788,278.7190,34.7260,33.5620" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000029.jpg" 
+@@TRAX:state "672.5191,279.2224,33.6842,32.5551" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000030.jpg" 
+@@TRAX:state "676.5612,279.2224,33.6842,32.5551" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000031.jpg" 
+@@TRAX:state "678.0770,278.7341,34.6947,33.5318" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000032.jpg" 
+@@TRAX:state "684.3221,277.7281,34.6947,33.5318" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000033.jpg" 
+@@TRAX:state "686.8769,275.1374,37.9119,36.6411" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000034.jpg" 
+@@TRAX:state "689.1516,275.1374,37.9119,36.6411" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000035.jpg" 
+@@TRAX:state "691.4263,269.6412,37.9119,36.6411" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000036.jpg" 
+@@TRAX:state "694.3038,266.8931,39.0492,37.7403" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000037.jpg" 
+@@TRAX:state "693.0000,263.8000,38.4000,37.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000038.jpg" 
+@@TRAX:state "694.0000,258.0000,37.8000,36.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000039.jpg" 
+@@TRAX:state "711.6000,256.2000,36.2000,34.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000040.jpg" 
+@@TRAX:state "711.8000,246.6000,37.8000,36.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000041.jpg" 
+@@TRAX:state "688.6000,255.0000,36.8000,35.2000" "confidence=0.99" 
+@@TRAX:quit 
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+@@TRAX:hello "trax.name=" "trax.family=" "trax.image=path;" "trax.region=rectangle;" "trax.description=" "trax.version=2" "trax.channels=color;" 
+@@TRAX:initialize "file:///root/collab/vot-workspace/sequences/drone1/color/00000046.jpg" "800.8200,233.7300,20.0100,15.5200" 
+@@TRAX:state "800.8200,233.7300,20.0100,15.5200" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000047.jpg" 
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca51790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca51790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f74aca51f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f74aca51f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca69150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca69150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f74aca51f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f74aca51f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca69550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74aca69550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac19b390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac19b390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac19bc50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac19bc50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac14a350>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f74ac14a350>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f74ac19b850>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f74ac19b850>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f74ac19b850>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f74ac19b850>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f74aca26450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f74aca26450>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-12 15:26:52.967347: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-12 15:26:52.974682: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2019-11-12 15:26:52.975046: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55dce4343e40 executing computations on platform Host. Devices:
+2019-11-12 15:26:52.975067: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-12 15:26:53.107936: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or us
+2019-11-12 15:26:53.525850: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+2019-11-12 15:26:54.320420: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+@@TRAX:state "808.4000,231.0000,20.0000,14.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000048.jpg" 
+@@TRAX:state "815.8000,233.8000,19.6000,14.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000049.jpg" 
+@@TRAX:state "821.4000,234.0000,20.8000,15.4000" "confidence=0.99" 
+@@TRAX:quit 
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+@@TRAX:hello "trax.name=" "trax.family=" "trax.image=path;" "trax.region=rectangle;" "trax.description=" "trax.version=2" "trax.channels=color;" 
+@@TRAX:initialize "file:///root/collab/vot-workspace/sequences/drone1/color/00000054.jpg" "921.8000,202.8000,20.6000,14.8000" 
+@@TRAX:state "921.8000,202.8000,20.6000,14.8000" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000055.jpg" 
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf41790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf41790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f64ddf41f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f64ddf41f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf59150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf59150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f64ddf41f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f64ddf41f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf59550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64ddf59550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd90390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd90390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd90c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd90c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd3acd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f64dcd3acd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f64dcd31950>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f64dcd31950>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f64dcd31950>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f64dcd31950>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f64dcd24c10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f64dcd24c10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-12 15:27:20.734262: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-12 15:27:20.741824: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2019-11-12 15:27:20.742155: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556a79164220 executing computations on platform Host. Devices:
+2019-11-12 15:27:20.742175: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-12 15:27:20.867972: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or us
+/root/collab/tracker/tracker_util.py:100: RuntimeWarning: divide by zero encountered in divide
+  return inter_area/union_area
+2019-11-12 15:27:21.332481: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+2019-11-12 15:27:22.134790: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+@@TRAX:state "929.8000,199.8000,19.6000,13.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000056.jpg" 
+@@TRAX:state "921.8000,195.8000,19.2000,13.6000" "confidence=0.99" 
+@@TRAX:quit 
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+@@TRAX:hello "trax.name=" "trax.family=" "trax.image=path;" "trax.region=rectangle;" "trax.description=" "trax.version=2" "trax.channels=color;" 
+@@TRAX:initialize "file:///root/collab/vot-workspace/sequences/drone1/color/00000061.jpg" "1010.5000,164.1100,20.7000,16.4600" 
+@@TRAX:state "1010.5000,164.1100,20.7000,16.4600" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000062.jpg" 
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5c6790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5c6790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f0afc5c6f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f0afc5c6f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5de150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5de150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f0afc5c6f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f0afc5c6f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5de550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc5de550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc192390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc192390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc192c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc192c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc142990>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f0afc142990>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f0afc139a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f0afc139a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f0afc139a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f0afc139a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f0afc12cc10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f0afc12cc10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-12 15:27:44.412670: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-12 15:27:44.419505: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2019-11-12 15:27:44.419860: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ba48c7fba0 executing computations on platform Host. Devices:
+2019-11-12 15:27:44.419881: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-12 15:27:44.553676: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or us
+2019-11-12 15:27:44.965668: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+2019-11-12 15:27:45.756471: W tensorflow/core/framework/allocator.cc:107] Allocation of 377529600 exceeds 10% of system memory.
+@@TRAX:state "1019.4000,161.2000,20.8000,16.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000063.jpg" 
+@@TRAX:state "1029.0000,160.4000,20.2000,16.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000064.jpg" 
+@@TRAX:state "1038.6000,163.0000,20.4000,16.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000065.jpg" 
+@@TRAX:state "1044.0000,166.8000,22.2000,17.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000066.jpg" 
+@@TRAX:state "1052.6000,172.8000,22.2000,17.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000067.jpg" 
+@@TRAX:state "1062.4000,172.8000,21.2000,16.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000068.jpg" 
+@@TRAX:state "1067.2000,166.6000,20.8000,16.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000069.jpg" 
+@@TRAX:state "1070.4000,158.6000,20.2000,16.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000070.jpg" 
+@@TRAX:state "1072.0000,151.6000,20.2000,16.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000071.jpg" 
+@@TRAX:state "1074.2000,144.2000,20.0000,16.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000072.jpg" 
+@@TRAX:state "1079.2000,136.6000,19.8000,16.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000073.jpg" 
+@@TRAX:state "1080.8000,133.2000,19.8000,16.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000074.jpg" 
+@@TRAX:state "1081.4000,126.6000,21.2000,17.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000075.jpg" 
+@@TRAX:state "1083.2000,122.6000,19.8000,16.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000076.jpg" 
+@@TRAX:state "1086.6000,119.0000,19.6000,16.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000077.jpg" 
+@@TRAX:state "1091.1000,117.5000,18.6000,15.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000078.jpg" 
+@@TRAX:state "1093.0000,113.0000,19.2000,15.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000079.jpg" 
+@@TRAX:state "1096.4000,107.2000,18.6000,15.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000080.jpg" 
+@@TRAX:state "1097.8000,97.6000,19.4000,15.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000081.jpg" 
+@@TRAX:state "1100.4000,90.0000,20.2000,16.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000082.jpg" 
+@@TRAX:state "1099.4000,76.0000,21.0000,16.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000083.jpg" 
+@@TRAX:state "1104.4000,72.8000,21.4000,16.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000084.jpg" 
+@@TRAX:state "1106.2000,69.4000,21.8000,17.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000085.jpg" 
+@@TRAX:state "1110.6000,62.0000,22.6000,17.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000086.jpg" 
+@@TRAX:state "1116.6000,56.2000,23.2000,18.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000087.jpg" 
+@@TRAX:state "1119.8000,50.8000,23.8000,18.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000088.jpg" 
+@@TRAX:state "1126.4000,50.0000,24.0000,18.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000089.jpg" 
+@@TRAX:state "1131.4000,45.2000,24.0000,18.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000090.jpg" 
+@@TRAX:state "1139.2000,41.8000,24.0000,18.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000091.jpg" 
+@@TRAX:state "1143.2000,41.2000,25.2000,19.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000092.jpg" 
+@@TRAX:state "1148.2000,40.2000,26.6000,20.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000093.jpg" 
+@@TRAX:state "1154.8000,39.0000,25.6000,19.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000094.jpg" 
+@@TRAX:state "1163.4000,36.4000,26.6000,20.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000095.jpg" 
+@@TRAX:state "1163.4000,36.4000,26.6000,20.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000096.jpg" 
+@@TRAX:state "1175.0000,37.0000,26.0000,20.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000097.jpg" 
+@@TRAX:state "1179.0000,39.0000,26.0000,20.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000098.jpg" 
+@@TRAX:state "1184.2000,41.2000,25.8000,19.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000099.jpg" 
+@@TRAX:state "1191.8000,46.0000,25.6000,19.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000100.jpg" 
+@@TRAX:state "1197.8000,51.0000,26.0000,19.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000101.jpg" 
+@@TRAX:state "1202.4000,63.2000,26.8000,20.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000102.jpg" 
+@@TRAX:state "1211.0000,75.4000,27.4000,20.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000103.jpg" 
+@@TRAX:state "1216.0000,92.2000,27.2000,20.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000104.jpg" 
+@@TRAX:state "1218.8000,106.8000,26.4000,20.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000105.jpg" 
+@@TRAX:state "1225.6000,118.6000,26.6000,20.4000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000106.jpg" 
+@@TRAX:state "1232.2000,132.6000,27.0000,21.0000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000107.jpg" 
+@@TRAX:state "1232.4000,152.6000,25.6000,19.8000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000108.jpg" 
+@@TRAX:state "1237.0000,168.0000,25.4000,19.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000109.jpg" 
+@@TRAX:state "1228.6000,178.8000,26.2000,20.2000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000110.jpg" 
+@@TRAX:state "1230.2000,192.2000,26.8000,20.6000" "confidence=0.99" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000111.jpg" 
+@@TRAX:state "1218.8000,203.4000,26.8000,20.4000" "confidence=0.99" 
+@@TRAX:quit 
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+@@TRAX:hello "trax.name=" "trax.family=" "trax.image=path;" "trax.region=rectangle;" "trax.description=" "trax.version=2" "trax.channels=color;" 
+@@TRAX:initialize "file:///root/collab/vot-workspace/sequences/drone1/color/00000116.jpg" "1257.8000,303.1100,22.5000,6.8700" 
+@@TRAX:state "1257.8000,303.1100,22.5000,6.8700" 
+@@TRAX:frame "file:///root/collab/vot-workspace/sequences/drone1/color/00000117.jpg" 
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:40: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:46: calling crop_and_resize_v1 (from tensorflow.python.ops.image_ops_impl) with box_ind is deprecated and will be removed in a future version.
+Instructions for updating:
+box_ind is deprecated, use box_indices instead
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /root/collab/tracker/tracker_util.py:141: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c23790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c23790>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f3244c23f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f3244c23f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c3b150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c3b150>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f3244c23f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method MaxPooling2D.call of <tensorflow.python.layers.pooling.MaxPooling2D object at 0x7f3244c23f10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c3b550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f3244c3b550>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324435f390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324435f390>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324435fc50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324435fc50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324431da90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:Entity <bound method Conv2D.call of <tensorflow.python.layers.convolutional.Conv2D object at 0x7f324431da90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the v
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3244367a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3244367a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosit
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3244367a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3244367a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3244367810>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f3244367810>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:67: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:70: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:74: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /root/collab/tracker/ADT.py:98: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2019-11-12 15:31:38.390763: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-12 15:31:38.397760: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2294680000 Hz
+2019-11-12 15:31:38.398077: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d9a349dd40 executing computations on platform Host. Devices:
+2019-11-12 15:31:38.398095: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-11-12 15:31:38.518529: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or us
+/root/collab/tracker/tracker_util.py:100: RuntimeWarning: divide by zero encountered in divide
+  return inter_area/union_area
+@@TRAX:quit 

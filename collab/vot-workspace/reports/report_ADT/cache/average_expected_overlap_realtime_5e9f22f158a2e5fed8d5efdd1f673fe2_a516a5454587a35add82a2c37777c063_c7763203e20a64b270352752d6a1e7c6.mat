@@ -1,0 +1,36 @@
+# Created by Octave 4.2.2, Thu Nov 14 11:45:56 2019 UTC <root@vot>
+# name: result
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 4
+# name: scores
+# type: matrix
+# rows: 7
+# columns: 1
+ 0.08503652244475281
+ 0.05765648504625991
+ 0.1288860830898973
+ 0.1731135637530461
+ 0.1339370982625758
+ 0.1815816529591817
+ 0.3837311002186131
+
+
+# name: low
+# type: scalar
+100
+
+
+# name: high
+# type: scalar
+356
+
+
+# name: peak
+# type: scalar
+160
+
+
+
+
